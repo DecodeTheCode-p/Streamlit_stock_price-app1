@@ -35,5 +35,5 @@ with col1:
     st.line_chart(ticker_df['Volume'])
 
 with col2:
-    st.header("cloning price analysis")
+    st.header("closing price analysis")
     st.line_chart(ticker_df['Close'])
